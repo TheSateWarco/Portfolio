@@ -1,0 +1,227 @@
+*{
+	padding:0;
+	margin:0;
+}
+p, th, li, tr{
+    color: #bfbfbf!important;
+    margin: 0.5rem;
+    font-size: large;
+}
+
+h1{
+    color: #bfbfbf!important;
+    margin: 0.5rem;
+}
+
+h1,h2{
+    border-bottom-style: solid;
+}
+
+h2,h3{
+    color: #72927d
+    
+}
+a{
+    padding: 0.5rem;
+    background-color: #566d5e;
+    color: #1d241f;
+    border-radius: 25px / 20px;
+    margin: 0.5rem;
+    font-size: 1rem;
+    border-style: outset;            
+    border-color: #39493e;   
+    font-size: large;     
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+header .name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img {
+    width: 8rem;
+    height: 10rem;
+    border-radius: 20%;
+    object-fit: cover;
+    margin: 10px
+}
+
+.header .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px
+}
+
+.header #contactContainer{
+    margin: 15px;
+}
+
+.header #contact {
+    border-radius: 25px / 20px;
+    padding: 7px;
+    margin: 5px;
+    justify-content: space-around;
+}
+
+header .tabs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .tabs button{
+    margin: 25px;
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 30px / 20px;
+    background-color: #1d241f;
+    color: #566d5e;
+;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+	background-color: #0e1210;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.abt {
+    display: flex;
+	flex-direction: row;
+    justify-content: space-around;
+    border-radius: 30px / 20px;
+}
+
+
+
+.me, .education, .workForce, .skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1d241f ;
+    justify-content: space-around;
+    border-radius: 30px / 20px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.me h2, .education h2, .workForce h2, .skills h2{
+    border-bottom: 2px dashed;
+    margin-bottom:0.8rem;
+
+}
+table{
+    border-radius: 20px;
+    border-style: solid;
+
+}
+
+table h3{
+    color: #1d241f
+}
+
+
+th{
+    background: #0e1210;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 0.5rem;
+}
+
+td{
+    border-style: dotted;
+    border-width: 1px;
+    padding: 0.2rem;
+    border-color: #566d5e;
+}
+
+.projLang,.projProgram,.skillLang,.skillProgram{
+    margin-left:1.5rem;
+    margin-right: 1.5rem;
+}
+
+.lang,.program{
+    white-space: nowrap;
+}
+
+.project, .otherProjectCard {
+    display: flex;
+	flex-direction: row;
+}
+
+
+.skills{
+    display: flex;
+	flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skills .h2{
+    margin: 1.5rem;
+}
+
+.status, .skills2,  .link{
+    display: flex;
+	flex-direction: row;
+    justify-content: space-around;
+    margin: 1.1rem;
+}
+
+
+
+
+.mainContainer,
+.subContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1d241f;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    
+}
+.mainContainer{
+    
+    justify-content: space-around;
+    flex-grow: 4
+}
+
+.subContainer{
+    flex-grow: 1
+}
+
+.imgContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin:0.5rem;
+}
+
+img {
+    width: 400px;
+    height:250px;
+    border-radius:25px / 20px;
+}
+
+video, iframe {
+    width: 480px;
+    height:270px;
+    border-radius:25px / 20px;
+}
