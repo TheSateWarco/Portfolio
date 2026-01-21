@@ -37,6 +37,7 @@ a{
 header{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 header .name{
@@ -44,6 +45,7 @@ header .name{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    /* flex-wrap: wrap;*/
 }
 
 .header img {
@@ -58,11 +60,21 @@ header .name{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 10px
+    margin: 10px;
+
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: break-word;
 }
+
+
 
 .header #contactContainer{
     margin: 15px;
+    display: flex;
+    max-width: 100%;
+    /*flex-wrap: wrap;*/
+    justify-content: center;
 }
 
 .header #contact {
@@ -76,11 +88,13 @@ header .tabs{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 0.2rem;
 }
 
+
 header .tabs button{
-    margin: 25px;
-    padding: 10px;
+    margin: 1rem;
+    padding: 0.5rem;
     font-size: 1.1rem;
     border-radius: 30px / 20px;
     background-color: #1d241f;
@@ -200,7 +214,7 @@ td{
 .mainContainer{
     
     justify-content: space-around;
-    flex-grow: 4
+    flex-grow: 4;
 }
 
 .subContainer{
@@ -211,7 +225,9 @@ td{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    margin:0.5rem;
+    margin: 0.5rem;
+
+    justify-content: center;
 }
 
 img {
@@ -224,4 +240,17 @@ video, iframe {
     width: 480px;
     height:270px;
     border-radius:25px / 20px;
+}
+
+
+@media (max-width: 1200px) {
+  header{
+    flex-direction: column;
+  }
+}
+@media (max-width: 1500px) {
+
+  .subContainer{
+    display: none;
+  }
 }
