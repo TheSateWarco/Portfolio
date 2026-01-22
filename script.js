@@ -119,6 +119,21 @@ $(document).ready(function () {
             downloadText: ""
         },  
         {
+            title: "Operating System Simulation",
+            description: "I am creating a simulation of an operating system similar to windows. This is JUST a simulation and I will not be mplementing nearly as much as a real OS. <br><br>Note: Contact me if you want to see this project in action. It will stay private due to policies from Northern Arizona University",
+            status: "On Going",
+            language: ["C"],
+            program: ["PuTTY", "WinSCP"],
+            imageURLs: [],
+            imageAlt: [],
+            videos: [],
+            youtube: "",
+            links: "",
+            linkText: "",
+            downloadable: "",
+            downloadText: ""
+        },
+        {
             title: "Gauntlet",
             description: "Created a 2d platform game. Your goal is to escape the dungeon. I did all the programming which includes player movement, interactions, double jump, and the grappling hook mechanics.<br><br>Note: The link may be broken",
             status: "Completed",
