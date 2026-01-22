@@ -86,20 +86,19 @@ header .name{
 
 header .tabs{
     display: flex;
-    justify-content: space-around;
     align-items: center;
     margin: 0.2rem;
+    gap: 10px;
 }
 
 
 header .tabs button{
-    margin: 1rem;
     padding: 0.5rem;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     border-radius: 30px / 20px;
     background-color: #1d241f;
     color: #566d5e;
-;
+    flex: 1;
 }
 
 body {
@@ -119,6 +118,10 @@ body {
 	flex-direction: row;
     justify-content: space-around;
     border-radius: 30px / 20px;
+}
+
+.hoverText{
+    margin: 0.5rem;
 }
 
 
@@ -244,13 +247,43 @@ video, iframe {
 
 
 @media (max-width: 1200px) {
-  header{
+  .header{
     flex-direction: column;
   }
+    .imgContainer img {
+    width: 350px!important;
+    height: 219px!important;
+}
 }
 @media (max-width: 1500px) {
 
   .subContainer{
     display: none;
   }
+
+}
+
+@media (max-width: 700px) {
+
+    .header .name{
+        flex-wrap: wrap;
+    }
+
+    .header #contactContainer{
+        flex-wrap: wrap;
+    }
+
+    .tabs{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .abt{
+        flex-direction: column;
+    }
+
+    .imgContainer img {
+        width: 200px!important;
+        height: 125px!important;
+    }
+
 }
