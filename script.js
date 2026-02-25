@@ -15,7 +15,7 @@ $(document).ready(function () {
     const projects = [
         {
             title: "KOI - Kingdom of Influence",
-            description: "Many young neurodivergent adults struggle with social interactions. Unspecified Studios is creating a single player roleplay game that blends relationship-building with real-world developmental psychology principles. DIR Floortime principles help people build emotion connections by using one's interests to help with engagement, inspire problem solving, and more.<br><br>The Minimum Viable Product was made on Godot and is open to the public! In this alpha version, I helped program player movement, camera movement, a guitar mini game, and interactions with objects. In addition, I connected a motion traking AI to capture the player's physical facial expressions and rely that in Godot in real time.<br><br>We are now working on a Unity demo; however, I will be taking a step back from this project due to my workload. The project will continue development, but I will be in a mentor position instead of a main developer.<br><br>Note: The video is the face tracking program also working in unity",
+            description: "Many young neurodivergent adults struggle with social interactions. Unspecified Studios is creating a single player roleplay game that blends relationship-building with real-world developmental psychology principles. DIR Floortime principles help people build emotion connections by using one's interests to help with engagement, inspire problem solving, and more.<br><br>The Minimum Viable Product was made on Godot and is open to the public! In this alpha version, I helped program player movement, camera movement, a guitar mini game, and interactions with objects. In addition, I connected a motion tracking AI to capture the player's physical facial expressions and rely that in Godot in real time.<br><br>We are now working on a Unity demo; however, I will be taking a step back from this project due to my workload. The project will continue development, but I will be in a mentor position instead of a main developer.<br><br>Note: The video is the face tracking program also working in unity",
             status: "Ongoing",
             language: ["C#", "Python", "GDScript"],
             program: ["Unity", "Godot", "GitHub", "Blender"],
@@ -30,7 +30,7 @@ $(document).ready(function () {
         },
         {
             title: "Ex-traterrestrial",
-            description: "In November 2025, Arizona State University held the first Arizona State Game Jam. Two teams from the schools Arizona State University, Northern Arizona University, Grand Canyon University, The University of Arizona, and University of Advancing Technology with a max of 5 developers competed against eachother. We had 24 hours to make a game based on the theme \"Creepy.\" We also had the artistic constraint of only using assets provided by the hosts. <br><br>We all brainstormed what we thought were creepy until one of the guys on my team suggested \"MEN.\" Luckily, I made a game with a similar concept earlier in this year (check out the project \"No Place Like Home.\") At first, we wanted the player to somehow escape a house but soon realized that goal wouldn't make sense if we wanted the player to be the Creep. Ultimately, we made the player's goal to go deeper into the house. The whole game the player must find clues of their lover's location while attempting to hide from the invader. If the player succeeds, the game reveals that the player is the girl's ex and the invader is actually her new boyfriend.<br><br>I worked on the main movement and sound mechanics of the player and how the enemy reacted to them. When the player moves, the enemy would be able to \"hear\" the player and notifies the player they are now being chased. Based on the type of movement (sprint, walk, crouch), the enemy will be able to hear from different distances.<br><br>In the end, our team won the game jam! It was nice working with people who were all as passionate about game development as I am.",
+            description: "In November 2025, Arizona State University held the first Arizona State Game Jam. Two teams from the schools Arizona State University, Northern Arizona University, Grand Canyon University, The University of Arizona, and University of Advancing Technology with a max of 5 developers competed against eachother. We had 24 hours to make a game based on the theme \"Creepy.\" We also had the artistic constraint of only using assets provided by the hosts. <br><br>We all brainstormed what we thought were creepy until one of the guys on my team suggested \"MEN.\" Luckily, I made a game with a similar concept earlier this year (check out the project \"No Place Like Home.\") At first, we wanted the player to somehow escape a house but soon realized that goal wouldn't make sense if we wanted the player to be the Creep. Ultimately, we made the player's goal to go deeper into the house. The whole game the player must find clues of their lover's location while attempting to hide from the invader. If the player succeeds, the game reveals that the player is the girl's ex and the invader is actually her new boyfriend.<br><br>I worked on the main movement and sound mechanics of the player and how the enemy reacted to them. When the player moves, the enemy would be able to \"hear\" the player and notifies the player they are now being chased. Based on the type of movement (sprint, walk, crouch), the enemy will be able to hear from different distances.<br><br>In the end, our team won the game jam! It was nice working with people who were all as passionate about game development as I am.",
             status: "Demo Completed",
             language: ["C#"],
             program: ["Unity", "GitHub"],
@@ -75,7 +75,7 @@ $(document).ready(function () {
         },
         {
             title: "Bubble Buzzer Beater",
-            description: "I participated in the annual Global Game Jame 2025 hosted by NAU. I worked with 3 other game developers to create a game based on the theme \"Bubble.\" We sent 48 hours to make multiple minigames.<br><br>My minigame consisted of the player playing as a turtle and collecting a certain amount of bubbles as fast as possible. This went through many iterations like a game similar to flappy bird, but I am happy with the end result.",
+            description: "I participated in the annual Global Game Jame 2025 hosted by NAU. I worked with 3 other game developers to create a game based on the theme \"Bubble.\" We spent 48 hours to make multiple minigames.<br><br>My minigame consisted of the player playing as a turtle and collecting a certain amount of bubbles as fast as possible. This went through many iterations like a game similar to flappy bird, but I am happy with the end result.",
             status: "Demo Completed",
             language: ["C#"],
             program: ["Unity"],
@@ -90,7 +90,7 @@ $(document).ready(function () {
         },
         {
             title: "StreetShot",
-            description: "I was introduced to photography in sophmore year of highschool; however, that was the year the world was quarantined. I was upset that I couldn't learn photography by actually going out and taking photos. Even now, photos are repatitive when you are unable to leave a certain vicinity. I tried looking for photography simulators and I couldn't find any on STEAM. I decided to change that.<br><br>My goal is to make a photography simulator that can teach new photographers the basics without needed an expensive camera or a \"beautiful\" area to take photos in.",
+            description: "I was introduced to photography in sophmore year of highschool; however, that was the year the world was quarantined. I was upset that I couldn't learn photography by actually going out and taking photos. Even now, photos are repetitive when you are unable to leave a certain vicinity. I tried looking for photography simulators and I couldn't find any on STEAM. I decided to change that.<br><br>My goal is to make a photography simulator that can teach new photographers the basics without needing expensive camera or a \"beautiful\" area to take photos in.",
             status: "On Hiatus",
             language: ["C++"],
             program: ["Unreal"],
@@ -104,11 +104,11 @@ $(document).ready(function () {
             downloadText: ""
         }, 
         {
-            title: "ImportsExports",
-            description: "My friend requested me to make a website for his family's business. I am still programming the backend to make a demo. I will program the purchase and security at a later date",
+            title: "Sunrise Project",
+            description: "Creating a mobile meditation game using Unreal and Flutter. Working closely with a few facility members from NAU and the creator of Playne (another meditation game released on STEAM).",
             status: "On Going",
-            language: ["html","java script","css"],
-            program: ["pgAdmin"],
+            language: ["C++"],
+            program: ["Unreal", "Android Studios", "Flutter"],
             imageURLs: [],
             imageAlt: [],
             videos: [],
@@ -120,7 +120,7 @@ $(document).ready(function () {
         },  
         {
             title: "Operating System Simulation",
-            description: "I am creating a simulation of an operating system similar to windows. This is JUST a simulation and I will not be mplementing nearly as much as a real OS. <br><br>Note: Contact me if you want to see this project in action. It will stay private due to policies from Northern Arizona University",
+            description: "I am creating a simulation of an operating system similar to windows. This is JUST a simulation and I will not be implementing nearly as much as a real OS. <br><br>Note: Contact me if you want to see this project in action. It will stay private due to policies from Northern Arizona University",
             status: "On Going",
             language: ["C"],
             program: ["PuTTY", "WinSCP"],
@@ -150,7 +150,7 @@ $(document).ready(function () {
         }, 
         {
             title: "Bittersweet",
-            description: "Created a text based story game. Starts out as a typical dating simulator, but it's the player's choice if they want to continue a down a different path.",
+            description: "Created a text based story game. Starts out as a typical dating simulator, but it's the player's choice if they want to continue down a different path.",
             status: "Completed",
             language: ["nodes"],
             program: ["Twine"],
@@ -202,7 +202,7 @@ $(document).ready(function () {
             School: "Northern Arizona University",
             dates: "August 2024 - Current",
             GPA: "3.94",
-            class: "Computer Science (Python, C), Data Structures (C), Web Programming, Computer Networks, Artificial Intelligence, Discrete Math, Linear Algebra"
+            class: "Computer Science (Python, C), Data Structures (C), Web Programming, Computer Networks, Artificial Intelligence, Principles of Languages, Automata Theory. Operating Systems, Discrete Math, Linear Algebra"
         },
         {
             School: "Leeward Community College",
@@ -530,7 +530,7 @@ $(document).ready(function () {
     // EVENT HANDLERS
 
     // Top 3 projects hover
-    $('.top').hover(function () {
+    $('.top').click(function () {
         $('.project').show();
         $('.otherProjects').hide();
         $('.abt').hide();
@@ -541,14 +541,14 @@ $(document).ready(function () {
     });
 
     // About Me hover
-    $('.about').hover(function () {
+    $('.about').click(function () {
         $('.otherProjects').hide();
         $('.project').hide();
         $('.abt').show();
     });
 
     // Other Projects hover
-    $('.other').hover(function () {
+    $('.other').click(function () {
         renderOtherProjects()
         $('.abt').hide();
         $('.project').hide();
