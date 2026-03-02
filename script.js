@@ -107,7 +107,7 @@ $(document).ready(function () {
             title: "Sunrise Project",
             description: "Creating a mobile meditation game using Unreal and Flutter. Working closely with a few facility members from NAU and the creator of Playne (another meditation game released on STEAM).",
             status: "On Going",
-            language: ["C++"],
+            language: ["C++", "Dart"],
             program: ["Unreal", "Android Studios", "Flutter"],
             imageURLs: [],
             imageAlt: [],
