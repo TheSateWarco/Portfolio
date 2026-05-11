@@ -16,7 +16,7 @@ $(document).ready(function () {
         {
             title: "KOI - Kingdom of Influence",
             description: "Many young neurodivergent adults struggle with social interactions. Unspecified Studios is creating a single player roleplay game that blends relationship-building with real-world developmental psychology principles. DIR Floortime principles help people build emotion connections by using one's interests to help with engagement, inspire problem solving, and more.<br><br>The Minimum Viable Product was made on Godot and is open to the public! In this alpha version, I helped program player movement, camera movement, a guitar mini game, and interactions with objects. In addition, I connected a motion tracking AI to capture the player's physical facial expressions and rely that in Godot in real time.<br><br>We are now working on a Unity demo; however, I will be taking a step back from this project due to my workload. The project will continue development, but I will be in a mentor position instead of a main developer.<br><br>Note: The video is the face tracking program also working in unity",
-            status: "Ongoing",
+            status: "On Hiatus",
             language: ["C#", "Python", "GDScript"],
             program: ["Unity", "Godot", "GitHub", "Blender"],
             imageURLs: ["mainMenu.jpg", "KOI.png","conceptArt.png"],
@@ -91,7 +91,7 @@ $(document).ready(function () {
         {
             title: "StreetShot",
             description: "I was introduced to photography in sophmore year of highschool; however, that was the year the world was quarantined. I was upset that I couldn't learn photography by actually going out and taking photos. Even now, photos are repetitive when you are unable to leave a certain vicinity. I tried looking for photography simulators and I couldn't find any on STEAM. I decided to change that.<br><br>My goal is to make a photography simulator that can teach new photographers the basics without needing expensive camera or a \"beautiful\" area to take photos in.",
-            status: "On Hiatus",
+            status: "On Going",
             language: ["C++"],
             program: ["Unreal"],
             imageURLs: ["camera.jpg","studioLayout.png"],
@@ -105,7 +105,7 @@ $(document).ready(function () {
         }, 
         {
             title: "Sunrise Project",
-            description: "Creating a mobile meditation game using Unreal and Flutter. Working closely with a few facility members from NAU and the creator of Playne (another meditation game released on STEAM).",
+            description: "Creating a mobile meditation game using Unreal and Flutter. Working closely with a few facility members from NAU and the creator of Playne (another meditation game released on STEAM). My main contribution was creating a way for Flutter to interact with an Unreal application through Firebase.",
             status: "On Going",
             language: ["C++", "Dart"],
             program: ["Unreal", "Android Studios", "Flutter"],
@@ -120,13 +120,13 @@ $(document).ready(function () {
         },  
         {
             title: "Operating System Simulation",
-            description: "I am creating a simulation of an operating system similar to windows. This is JUST a simulation and I will not be implementing nearly as much as a real OS. <br><br>Note: Contact me if you want to see this project in action. It will stay private due to policies from Northern Arizona University",
-            status: "On Going",
+            description: "Creating a simulation of an operating system similar to windows. This is JUST a simulation and I will not be implementing nearly as much as a real OS. In order to program this, I needed understand configuration and metadata files, scheduling algorithms, memory allocation and more. <br><br>Note: Contact me if you want to see this project in action. It will stay private due to policies from Northern Arizona University",
+            status: "Completed",
             language: ["C"],
             program: ["PuTTY", "WinSCP"],
             imageURLs: [],
             imageAlt: [],
-            videos: [],
+            videos: ["OperatingSystemsSim"],
             youtube: "",
             links: "",
             linkText: "",
@@ -182,6 +182,12 @@ $(document).ready(function () {
 
     // Experience data
     const experience = [
+        {
+            title: "Game Programmer",
+            dates: "February 2026 - Current",
+            locations: "Northern Arizona University",
+            desc: "Contributed to a meditation app. Created a bridge between their flutter application and different game engines"
+        },
         {
             title: "Grader",
             dates: "August 2025 - December 2025",
